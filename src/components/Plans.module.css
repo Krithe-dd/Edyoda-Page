@@ -1,0 +1,84 @@
+.plans{
+    height: 100%;
+    width: 80%;
+    background-color: #ffffff;
+    border: 2px solid red;
+    margin: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem ;
+}
+.login{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.numbers{
+    background-color: #4774e6;
+    padding: .3rem;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+}
+.subscriptions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: auto;
+}
+hr{
+    margin-top: 1rem;
+    height: 2px;
+    background-color: grey;
+    width: 90%;
+}
+.discount{
+    height: auto;
+    width: 90%;
+    background-color: #f8dada;
+    border:2px solid #ff0000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.discount :first-child{
+    color: #ff0000;
+}
+.discount :nth-child(2){
+align-self: flex-start;}
+.fee{
+    display: flex;
+    height: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.total :nth-child(2){
+    font-size: larger;
+    font-weight: bold;
+}
+.actions{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+
+

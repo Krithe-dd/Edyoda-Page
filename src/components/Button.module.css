@@ -1,0 +1,16 @@
+.btn{
+    text-transform: uppercase;
+    background-color: transparent;
+    width: inherit;
+    padding: 1rem;
+    border-radius: 2px;
+}
+.red{
+    border: 2px solid red;
+    color: red;
+}
+.green{
+    color: #fff;
+    background-color: #47ba68;
+    border: 2px solid #47ba68;
+}
